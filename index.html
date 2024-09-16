@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <link href="styles.css?version=2" rel="stylesheet">
+     <title>mybirthday</title>
+    </head>
+
+  <body>
+    <div>
+    <header>
+      <div>
+       <p><a href="http://localhost:8090/projet"><img src="images/logo.jpeg" height="150px" width="230px"></a></p>
+       <form id="search"> 
+        <input type="text" placeholder="Rechercher">
+        <input id="validate" type="submit" value="RECHERCHER">
+       </form>
+       <nav>
+         <ul class="nav">
+          <li><a href="http://localhost:8090/projet/connexion.html" target="_blank"><img id="icone1" src="images/compte.png" height="40px"><br/>Compte client</a></li>
+                <li><a href="#panier"><img id="icone2" src="images/panier.png" height="25px"><br/>Panier</a></li> 
+                <li><a href="#contact"><img id="icone3" src="images/contact.png" height="35px"><br/>Contact</a></li>
+                
+              </ul> <br/>
+               <marquee id="slogan"scrolldelay="100">
+                <h1>Celebre ton anniversaire avec nous !</h1>
+               </marquee>
+              
+            </nav>   
+          </div>
+        </header>
+        
+
+        <section id="main-image">
+          <div>
+            
+              <ul class="banniere">
+                <li class="lien"><a href="#">A propos</a>
+                   <ul class="sous">
+                     <li><a href="http://localhost:8090/projet/situation.html">Situation geographique</a></li>
+                     <li><a href="http://localhost:8090/projet/particularites.html">Particularites</a></li>
+                   </ul>
+                </li>
+                <li class="lien"><a href="#">Nos services</a>
+                  <ul class="sous">
+                    <li><a href="http://localhost:8090/projet/anniv.html">Anniversaire</a></li>
+                    <li><a href="http://localhost:8090/projet/livraison.html">Livraison</a></li>
+                    <li><a href="http://localhost:8090/projet/demande.html">A la demande</a></li>
+                  </ul>
+                </li>
+
+                <li class="lien"><a href="http://localhost:8090/projet/evenement.html">Evenements</a>
+                  <ul class="sous">
+                    <li><a href="http://localhost:8090/projet/evenement.html">Social</a></li>
+                    <li><a href="http://localhost:8090/projet/evenement.html">Entreprise</a></li>
+                    <li><a href="http://localhost:8090/projet/evenement.html">Association</a></li>
+                    <li><a href="http://localhost:8090/projet/evenement.html">Divers</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Catalogue</a></li>
+               
+              </ul>
+            
+          </div>
+          <div class="container">
+             <marquee behavior="alternate" scrollamount="10" scrolldelay="50">
+             
+                <img src="images/1.webp" width="800" height="346">
+                <img src="images/2.jpg" width="650" height="346">
+                <img src="images/3.jpg" height="346">
+                
+                <img src="images/gateau2.jpg" height="346">
+                <img src="images/gateau3.jpg" height="346">
+                <img src="images/gateau4.jpg" height="346">
+                <img src="images/gateau5.jpg" height="346">
+                <img src="images/gateau6.jpg" height="346">
+                <img src="images/gateau7.jpg" height="346">
+             </marquee>
+            
+          </div>
+
+          <div id="divers">
+            
+            
+                <div id="produit">
+                  <div><h3>Nos produits</h3></div><br/>
+                 <a href="http://localhost:8090/projet/produits.html"><img src="images/gateau1.jpg" height="150"></a>
+                </div>
+           
+                <div id="nouvo">
+                  <div><h3>Nouveautes</h3></div><br/>
+                 <a href="#"><img src="images/nouvo.jpg" height="150"></a>
+                </div>
+                <div id="avis"> 
+                  <div><h3>Avis des clients</h3></div><br/>
+                  <a href="#"><img src="images/avis.jpg" height="150"></a>
+                </div>
+          
+
+          </div>
+
+          <div class="wrapper">
+            <h2>Envie de celebrer votre anniversaire<br/><br/>
+              <button><a href="http://localhost:8090/projet/connexion.html">Abonnez vous !</a></button>
+            </h2>
+          </div>
+
+        </section>
+
+        <section id="contact">
+          <div class="wrapper1">
+                <h3>Nous contacter</h3>
+                <p>Nous nous engageons a planifier vos celebrations d'anniversaire en vous proposant
+                  des tarifs bon marche.
+                </p>
+                <form action="contact.php" method="GET">
+                  <textarea name="comment" cols="100" rows="10"></textarea><br/><br/>
+                  <label for="name">Nom</label>
+                  <input type="text" name="nom" id="name" placeholder="Votre nom">
+                  <label for="email">Email</label>
+                  <input type="text" name="mail" id="email" placeholder="Votre email">
+                  <input type="submit" value="OK" class="button1">
+                </form>
+          </div>
+        </section><br/><br/>
+      </div>
+      <footer>
+          <div id="com">
+            
+            <h4>Retrouvez nous sur
+              <a href="http://www.facebook.com"><img id="iconef" src="images/fbook.png" height="50px"></a>
+              <a href="http://www.whatsapp.com"><img id="iconew" src="images/whatspp.jpg" height="50px"></a>
+              
+            </h4><br/>
+        
+              <p>Copyrights 2024 - All rights reserved</p>
+          </div>
+      </footer>
+      
+      <!--compte-->
+      
+    </body>
+</html>

@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    font-size: 20px;
+    Color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    display:flex;
+    flex-direction: column;
+
+  }
+  section {
+    display:flex;
+    margin-bottom: 10px; 
+  }
+  #logo_connexion {
+    margin-right: 70px;
+    margin-left: 30px;
+    margin-top: 50px;
+    height:200px;
+  }
+
+form {
+    float: right;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-style:double;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 30px 60px 30px 50px;
+    
+}
+form h1 {
+    margin-bottom: 10px;
+}
+#new_user {
+    border: 2px solid black;
+    border-radius: 10px;
+    border-style:double;
+    padding: 10px;                              
+    margin-top: 0;
+    margin-left: 480px;
+    margin-right: 220px;
+    text-align: center;
+}
+#mdp {
+    padding: 10px;
+    width: 240px;
+    border-style:double;
+    font-size: 20px;
+}
+input[type="text"] {
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 20px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.valid_c {
+  color: #de0404;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 11px;
+  background-color:rgb(210, 213, 198);
+  border-style: none;
+  margin-left: 50px;
+  
+}
+/*FOOTER*/
+footer {
+    height: 300px;
+    
+  }
+  #com {
+    height: 250px;
+    margin-top: 20px;
+    background:#444; 
+    margin-bottom: 0;
+  }
+  #com p {
+    margin: 5px auto 5px 500px;
+  }
+  
+  #com h4 {
+    padding: 50px 0 10px 400px;
+    margin-left: 50px;
+  }
+  #iconef {
+   margin-right: 20px;
+   margin-left: 10px;
+   height: 40px;
+  }
+  #iconew {
+    height: 40px;
+  }

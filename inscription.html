@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <link href="styles_inscription.css?version=2" rel="stylesheet">
+     <title>Compte</title>
+    </head>
+
+    <body>
+    <section>
+         <div id="logo_connexion">
+            <p><img src="images/connexion.jpeg" width="350"></p>
+        </div>
+     <form action="insert.php" method="GET">
+        <h1>Veuillez vous inscrire</h1> <hr/><br/>
+        <input type="text"name="nom" placeholder="votre nom" class="inscrire"><br/>
+        <input type="text" name="prenom" placeholder="votre prenom" class="inscrire"><br/>
+        <input type="text" name="username" placeholder="Votre nom d'utilisateur" class="inscrire"><br/>
+        <input type="email" name="mail" placeholder="Votre Email" class="inscrire"><br/>
+        <label>Sexe</label>
+        <input type="radio" name="gender" value="Homme"/><label class="genre">Homme </label>
+        <input type="radio" name="gender" value="Femme"/><label class="genre">Femme</label><br/>
+        <input type="text" name="ville" placeholder="votre ville" class="inscrire"><br/>
+        <input type="number" name="phone" placeholder="numero de telephone" class="inscrire"><br/>
+        <input type="password" name="password" placeholder="Mot de passe" class="inscrire"><br/>
+        <input type="password" name="confirm_password" placeholder="Confirmez le mot de passe" class="inscrire"><br/>
+        <input type="submit" value="S'inscrire" class="valid_c">
+     </form>
+    </section>
+     
+     <footer>
+      <div id="com">
+        
+        <h4>Retrouvez nous sur
+          <a href="http://www.facebook.com"><img id="iconef" src="images/fbook.png" height="50px"></a>
+          <a href="http://www.whatsapp.com"><img id="iconew" src="images/whatspp.jpg" height="50px"></a>
+          
+        </h4><br/>
+    
+          <p>Copyrights 2024 - All rights reserved</p>
+      </div>
+     </footer>
+
+    </body>
